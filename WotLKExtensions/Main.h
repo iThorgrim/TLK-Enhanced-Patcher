@@ -2,6 +2,7 @@
 
 #include "CustomLua.h"
 #include "CustomGlueLua.h"
+#include "CustomGlueCVar.h"
 #include "CustomPacket.h"
 #include "Misc.h"
 #include "Player.h"

@@ -19,7 +19,9 @@ static bool classLFDRoles = false;
 // Allow registering custom Lua functions from outside of wow.exe
 static bool outOfBoundLuaFunctions = false;
 // Allow registering custom Glue Lua functions (for login/character select screens)
-static bool outOfBoundGlueLuaFunctions = true;
+static bool outOfBoundGlueLuaFunctions = false;
+// Allow registering custom Glue CVars (for login/character select screens)
+static bool outOfBoundGlueCVars = false;
 // Use custom packets
 static bool customPackets = false;
 // expands ITEM_MOD table, allowing to add and display more custom tooltip mods
